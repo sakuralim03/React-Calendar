@@ -1,0 +1,42 @@
+{
+  "name": "React-Calandar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philipstout3/React-Calandar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philipstout3/React-Calandar/issues"
+  },
+  "homepage": "https://github.com/philipstout3/React-Calandar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "antd": "^3.15.1",
+    "css-loader": "^2.1.1",
+    "nodemon": "^1.18.10",
+    "react-modal": "^3.8.1",
+    "simple-react-modal": "^0.5.1",
+    "style-loader": "^0.23.1"
+  }
+}
